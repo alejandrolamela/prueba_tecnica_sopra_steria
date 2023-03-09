@@ -37,7 +37,7 @@ if (numero%2===0) {
 
 let personas = [];
 
-for (let index = 0; index <= 2; index++) {
+for (let index = 0; index < 50; index++) {
   let element = {
     edad: prompt("Ponga la edad:"),
     genero: prompt("Es masculino o femenino:"),
